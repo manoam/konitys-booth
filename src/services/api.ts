@@ -1,7 +1,7 @@
 import { Borne, CreateBorneDTO, UpdateBorneDTO, PaginatedResponse, BorneStats, Antenne } from '../types';
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3003/api/booth';
-const API_ANTENNES_URL = process.env.REACT_APP_API_ANTENNES_URL || 'http://api.konitys.fr/api/antennes';
+const API_ANTENNES_URL = process.env.REACT_APP_API_ANTENNES_URL || 'https://konitys-api-antennes-production.up.railway.app/api/antennes';
 
 class ApiService {
   private token: string | null = null;
